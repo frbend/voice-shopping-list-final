@@ -7,23 +7,23 @@ const diagnostic = document.querySelector('.output');
 const list = [
 {
     title: "something",
-    image: buildImage("../prototype/imgs/question_m.png")
+    image: buildImage("../imgs/question_m.png")
 }, 
 {
     title: "car",
-    image: buildImage("../prototype/imgs/tesla.jpg")
+    image: buildImage("../imgs/tesla.jpg")
 },
 {
     title: "banana",
-    image: buildImage("../prototype/imgs/banana.png")
+    image: buildImage("../imgs/banana.png")
 },
 {
     title: "newspaper",
-    image: buildImage("../prototype/imgs/newspaper.png")
+    image: buildImage("../imgs/newspaper.png")
 },
 {
     title: "milk",
-    image: buildImage("../prototype/imgs/milk.png")
+    image: buildImage("..imgs/milk.png")
     //or just have "src: "../prototype etc..?""
 }];
 
