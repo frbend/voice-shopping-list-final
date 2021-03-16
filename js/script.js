@@ -11,19 +11,19 @@ const list = [
 }, 
 {
     title: "car",
-    image: buildImage("../imgs/tesla.jpg")
+    image: buildImage("https://frbend-voice-list.netlify.app/imgs/tesla.jpg")
 },
 {
     title: "banana",
-    image: buildImage("../imgs/banana.png")
+    image: buildImage("https://frbend-voice-list.netlify.app/imgs/banana.png")
 },
 {
     title: "newspaper",
-    image: buildImage("../imgs/newspaper.png")
+    image: buildImage("https://frbend-voice-list.netlify.app/imgs/newspaper.png")
 },
 {
     title: "milk",
-    image: buildImage("..imgs/milk.png")
+    image: buildImage("https://frbend-voice-list.netlify.app/imgs/milk.png")
     //or just have "src: "../prototype etc..?""
 }];
 
