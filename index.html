@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./artyom/artyom.window.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3e1fa2864.js" crossorigin="anonymous"></script>
+</head>
+<body onload="openJarvis()">
+    <header>
+        <h2 class="top">Voice powered shopping list</h2></br>
+    </header>   
+    <div class="main">
+            <div class="left">
+                <p class="hint-mobile">Things you can say: milk, banana, newspaper,something, car</p>
+                <h2 class="left-heading">Make a list here</h2>
+                <div class="content-container">
+                    <div id="list"></div>
+                </div>  
+
+                <!-- old way -> two buttons now there is only one -->
+                <!-- <button class="start" onclick="firstStart()"><span class="fa fa-play"></span> Start dictation</button>
+                <button class="stop" onclick="dictateEnd()"><span class="fa fa-times" aria-hidden="true"></span> Stop dictation</button> -->
+            </div>
+            <div class="right">
+                <div class="things">
+                    <h2>You can say</h2>
+                        <div id="one">
+                            <h3>Something</h3>
+                            <img src="../prototype/imgs/question_m.png" alt="" width="30px" height="30px">
+                        </div></br>
+                        <div id="two">
+                            <h3>Car</h3>
+                                <img src="../prototype/imgs/tesla.jpg" alt="" width="30px" height="30px">
+                        </div></br>
+                        <div id="three">
+                            <h3>Banana</h3> 
+                            <img src="../prototype/imgs/banana.png" alt="" width="30px" height="30px">
+                        </div></br>
+                        <div id="four">
+                            <h3>Newspaper</h3>
+                            <img src="../prototype/imgs/newspaper.png" alt="" width="30px" height="30px">
+                        </div></br>
+                        <div id="five">
+                            <h3>Milk</h3>
+                            <img src="../prototype/imgs/milk.png" alt="" width="30px" height="30px">
+                        </div></br>
+                </div>
+                <button id="main-button" type="button"><i class="fas fa-microphone"></i></button></br>
+                <div id="err"></div>
+            </div>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script> 
+</body>
+</html>
