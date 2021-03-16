@@ -7,7 +7,7 @@ const diagnostic = document.querySelector('.output');
 const list = [
 {
     title: "something",
-    image: buildImage("../imgs/question_m.png")
+    image: buildImage("https://frbend-voice-list.netlify.app/imgs/question_m.png")
 }, 
 {
     title: "car",
