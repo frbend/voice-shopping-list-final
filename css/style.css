@@ -41,6 +41,10 @@ header{
     margin: 50px 0px 0 -35%
 }
 
+#result{
+    display: inline;
+}
+
 
 #err{
     margin-top: 30%;
@@ -70,6 +74,19 @@ header{
     outline: none;
 }
 
+#clear_list{
+    position: absolute;
+    grid-row: 4;
+    margin: 35% 0 0 17%;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #132BB1; 
+    border: none;
+    border-radius: 40px;
+    outline: none;
+}
+
  .fa-microphone, .fa-microphone-slash{
     font-size: 30px!important;
 }
@@ -85,11 +102,12 @@ header{
 }
 
 #list{
-    width: 100%;
-    height: 100%;
-    margin: 40% 0 0 35%;
+    width: 320px;
+    height: 280px;
+    margin: 32% 0 0 35%;
     grid-template-columns: auto auto;
     grid-row: 3;
+    overflow: scroll;
 }
 
 #list img{
@@ -130,6 +148,8 @@ header{
 img{
     float: right;
     margin: 5px 10px 0 0;
+    width: 30px;
+    height: 30px;
 }
 
 
